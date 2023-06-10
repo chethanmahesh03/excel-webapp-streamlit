@@ -14,7 +14,8 @@ sh ' git clone https://github.com/chethanmahesh03/excel-webapp-streamlit.git -b 
 }
 stage ('deploy') {
     steps {
-        sh ' mv /var/lib/jenkins/workspace/mvn_web/awsweb/*  /var/www/html'
+        sh ' mv /var/lib/jenkins/workspace/python1/excel-webapp-streamlit/*  /var/www/html'
+
         
     }
 }
